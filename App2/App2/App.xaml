@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.App"
+                xmlns:converters="using:App2.Converters"
+    xmlns:vm1="clr-namespace:App2.ViewModels">
+    <Application.Resources>
+        <vm1:ViewModelLocator xmlns:vm="good2KNOW.ViewModels" x:Key="Locator" />
+        <!--<converters:ShowDetailsConverter x:Key="ShowDetailsConverter"/>-->
+
+    </Application.Resources>
+</Application>
